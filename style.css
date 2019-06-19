@@ -1,0 +1,205 @@
+/* reglas
+selectores
+declaraciones 
+propiedades
+valores
+especificidad */
+
+
+/* body header div nav ol li a {
+  
+} */
+/* 
+.clase{
+
+} */
+
+/* #id{
+
+} */
+
+/* inspector de elementos  */
+
+
+
+/* colores 
+
+palabras
+rgb rgba
+hexadecimal */
+/* hls hlsa */
+
+/* font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Fjalla One', sans-serif; */
+/* *{
+  margin: 0;
+  padding: 0
+} */
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+  line-height: 1.5em;
+  font-size: 40px;
+  color: white;
+  /* margin: 0; */
+}
+
+h1 strong {
+  color: blue;
+}
+
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  padding: 2%;
+  /* margin: 1%; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-details {
+  width: 49%;
+}
+
+.project-title{
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.project-sub, .project-date{
+   margin: 10px 0;
+}
+
+project-imageContainer {
+  width: 100%;
+}
+
+.hero {
+  height: 50vh;
+  background-image: url('./img/foto1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: right;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio {
+  background: #fafafa;
+  padding: 2%;
+
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+
+header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  width: 100%;
+}
+
+.header ol li:hover {
+  color: gray;
+  background-color: #323436;
+
+}
+
+
+.menu {
+  display: flex;
+  height: inherit;
+}
+
+
+.footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+h2 {
+  color: blue;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 25px; 
+  margin-bottom: 40px;
+}
+
+.videos{
+  display: flex;
+}
+
+.event {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  widows: 49%;
+  overflow: hidden;
+  background: #f4fbff
+}
+
+.event-imageContainer{
+  width: 100%;
+}
+
+.event-detail{
+  margin: 20px;
+  background-color: white;
+}
